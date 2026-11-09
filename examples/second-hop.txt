@@ -1,0 +1,13 @@
+do you know the steno language?
+yes
+! state a
+! end
+! state b
+! end
+! bind a1 "Council Bluffs"
+! bind a3 "Council Bluffs"
+! bind b1 "Council Bluffs"
+! mv b1 a1
+! mv a1 a3
+{b1}
+! err cite {b1} hop

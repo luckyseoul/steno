@@ -1,0 +1,13 @@
+do you know the steno language?
+yes
+! state a
+! end
+! state b
+! end
+Route via Council Bluffs, avoid tolls.
+! bind a1 "Council Bluffs"
+! bind a2 "toll"
+Use {a1}, avoid {a2}.
+! bind b1 "Council Bluffs"
+! mv b1 a1
+{b1} is the same stop as {a1}.
